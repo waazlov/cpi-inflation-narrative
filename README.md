@@ -42,37 +42,37 @@ The project uses the following datasets:
 
 All CPI data comes from the U.S. Bureau of Labor Statistics and was accessed through FRED, Federal Reserve Bank of St. Louis.
 
-* U.S. Bureau of Labor Statistics. Consumer Price Index for All Urban Consumers: All Items in U.S. City Average (CPIAUCSL). Retrieved from FRED, Federal Reserve Bank of St. Louis. https://fred.stlouisfed.org/series/CPIAUCSL.
+* U.S. Bureau of Labor Statistics. “Consumer Price Index for All Urban Consumers: All Items in U.S. City Average (CPIAUCSL).” FRED, Federal Reserve Bank of St. Louis. Accessed May 21, 2026. https://fred.stlouisfed.org/series/CPIAUCSL. 
 
-* U.S. Bureau of Labor Statistics. Consumer Price Index for All Urban Consumers: Food in U.S. City Average (CPIUFDSL). Retrieved from FRED, Federal Reserve Bank of St. Louis. https://fred.stlouisfed.org/series/CPIUFDSL.
+* U.S. Bureau of Labor Statistics. “Consumer Price Index for All Urban Consumers: Food in U.S. City Average (CPIUFDSL).” FRED, Federal Reserve Bank of St. Louis. Accessed May 21, 2026. https://fred.stlouisfed.org/series/CPIUFDSL. 
 
-* U.S. Bureau of Labor Statistics. Consumer Price Index for All Urban Consumers: Energy in U.S. City Average (CPIENGSL). Retrieved from FRED, Federal Reserve Bank of St. Louis. https://fred.stlouisfed.org/series/CPIENGSL.
+* U.S. Bureau of Labor Statistics. “Consumer Price Index for All Urban Consumers: Energy in U.S. City Average (CPIENGSL).” FRED, Federal Reserve Bank of St. Louis. Accessed May 21, 2026. https://fred.stlouisfed.org/series/CPIENGSL. 
 
-* U.S. Bureau of Labor Statistics. Consumer Price Index for All Urban Consumers: Shelter in U.S. City Average (CUSR0000SAH1). Retrieved from FRED, Federal Reserve Bank of St. Louis. https://fred.stlouisfed.org/series/CUSR0000SAH1.
+* U.S. Bureau of Labor Statistics. “Consumer Price Index for All Urban Consumers: Shelter in U.S. City Average (CUSR0000SAH1).” FRED, Federal Reserve Bank of St. Louis. Accessed May 21, 2026. https://fred.stlouisfed.org/series/CUSR0000SAH1. 
 
-* U.S. Bureau of Labor Statistics. “Consumer Price Index for All Urban Consumers: Transportation in U.S. City Average.” Retrieved from FRED, Federal Reserve Bank of St. Louis, May 26, 2026. https://fred.stlouisfed.org/series/CPITRNSL.
+* U.S. Bureau of Labor Statistics. “Consumer Price Index for All Urban Consumers: Transportation in U.S. City Average (CPITRNSL).” FRED, Federal Reserve Bank of St. Louis. Accessed May 21, 2026. https://fred.stlouisfed.org/series/CPITRNSL. 
 
 Along with sources to support our narrative:
 
-* Cunningham, M. “CPI Report Shows Inflation Surged in March as Iran War Drove Up Energy Costs.” CBS News. April 10, 2026. https://www.cbsnews.com/news/cpi-report-today-march-2026-inflation-iran-war-trump/.
+* Cunningham, Mary. “CPI Report Shows Inflation Surged in March as Iran War Drove Up Energy Costs.” CBS News, April 10, 2026. https://www.cbsnews.com/news/cpi-report-today-march-2026-inflation-iran-war-trump/. 
 
-* Guardian staff and agencies. “US Inflation Rose at Fastest Pace in Three Years in April as Iran War Hikes Up Prices. The Guardian. May 28, 2026. https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises.
+* Guardian Staff and Agencies. “US Inflation Rose at Fastest Pace in Three Years in April as Iran War Hikes Up Prices.” The Guardian, May 28, 2026. https://www.theguardian.com/business/2026/may/28/inflation-increased-april-iran-war-price-rises. 
 
-* Kilian, L., Plante, M., Richter, A.W., Zhou, X. “Implications of the Iran War for U.S. Inflation.” Federal Reserve Bank of Dallas. April 17, 2026. https://www.dallasfed.org/research/economics/2026/0417.
+* Kilian, Lutz, Michael Plante, Alexander W. Richter, and Xiaoqing Zhou. “Implications of the Iran War for U.S. Inflation.” Federal Reserve Bank of Dallas, April 17, 2026. https://www.dallasfed.org/research/economics/2026/0417. 
 
-* Pino, I. “March CPI Breakdown: Iran War Sends Gas Prices Skyrocketing, Airfare Climbing.” Yahoo Finance. April 10, 2026. https://finance.yahoo.com/personal-finance/banking/article/march-cpi-breakdown-iran-war-sends-gas-prices-skyrocketing-airfare-climbing-142208770.html.
+* Pino, Ivana. “March CPI Breakdown: Iran War Sends Gas Prices Skyrocketing, Airfare Climbing.” Yahoo Finance, April 10, 2026. https://finance.yahoo.com/personal-finance/banking/article/march-cpi-breakdown-iran-war-sends-gas-prices-skyrocketing-airfare-climbing-142208770.html. 
 
-* Qiu, L. “Trump Cites Inaccurate Data to Downplay Economic Toll of Iran War.” The New York Times, May 14, 2026. https://www.nytimes.com/2026/05/14/us/politics/trump-iran-war-economy-cost.html.
+* Qiu, Linda. “Trump Cites Inaccurate Data to Downplay Economic Toll of Iran War.” The New York Times, May 14, 2026. https://www.nytimes.com/2026/05/14/us/politics/trump-iran-war-economy-cost.html. 
 
-* Rugaber, C. “A Key Inflation Gauge Jumps in March as Iran War-Driven Gas Prices Squeeze Budgets.” Associated Press. April 30, 2026. https://apnews.com/article/consumer-prices-gas-inflation-5c2037950e57d8e5d402a40b8fc41384.
-  
-* Bussewitz, C. Gasoline costs 50% more in the US than it did before the Iran war. Associated Press. May 5, 2025. https://apnews.com/article/gasoline-oil-war-iran-strait-of-hormuz-0e5b61be4a4c8a8a077ed5ff6f84c0ce.
-  
-* David, J.E. "Wild" housing market leaves renters, buyers fewer choices. Axios. June 18, 2022. https://www.axios.com/2022/06/18/affordable-housing-shortage-tiny-homes.
-  
-* Ball, L.M., Koh, K.W. Understanding the Lag Between CPI Shelter Inflation and Market Rents. National Bureau of Economic Research. October 1, 2025. https://www.nber.org/digest/202510/understanding-lag-between-cpi-shelter-inflation-and-market-rents?page=1&perPage=50.
+* Rugaber, Christopher. “A Key Inflation Gauge Jumps in March as Iran War-Driven Gas Prices Squeeze Budgets.” Associated Press, April 30, 2026. https://apnews.com/article/consumer-prices-gas-inflation-5c2037950e57d8e5d402a40b8fc41384. 
 
-* Bartash, J. Shelter from inflation? CPI not showing much sign of it lately. MarketWatch. May 13, 2025. https://www.marketwatch.com/story/shelter-from-inflation-cpi-not-showing-much-sign-of-it-lately-369a2d39. 
+* Bussewitz, Cathy. “Gasoline Costs 50% More in the US Than It Did Before the Iran War.” Associated Press, May 5, 2026. https://apnews.com/article/gasoline-oil-war-iran-strait-of-hormuz-0e5b61be4a4c8a8a077ed5ff6f84c0ce. 
+
+* David, Javier E. “‘Wild’ Housing Market Leaves Renters, Buyers Fewer Choices.” Axios, June 18, 2022. https://www.axios.com/2022/06/18/affordable-housing-shortage-tiny-homes. 
+
+* Ball, Laurence M., and Kyung W. Koh. “Understanding the Lag Between CPI Shelter Inflation and Market Rents.” National Bureau of Economic Research, October 1, 2025. https://www.nber.org/digest/202510/understanding-lag-between-cpi-shelter-inflation-and-market-rents?page=1&perPage=50. 
+
+* Bartash, Jeffry. “Shelter from Inflation? CPI Not Showing Much Sign of It Lately.” MarketWatch, May 13, 2025. https://www.marketwatch.com/story/shelter-from-inflation-cpi-not-showing-much-sign-of-it-lately-369a2d39. 
 
 ## Tools Used
 
