@@ -1,0 +1,381 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #111;
+}
+
+main {
+  width: min(1120px, 94vw);
+  margin: 0 auto;
+  padding: 42px 0 60px;
+}
+
+.project-intro {
+  max-width: 900px;
+  margin-bottom: 32px;
+}
+
+.intro,
+.section-heading {
+  max-width: 850px;
+  margin-bottom: 24px;
+}
+
+.kicker {
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #474a52;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 1.06;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: clamp(1.6rem, 3vw, 2.5rem);
+  line-height: 1.12;
+}
+
+.subtitle,
+.section-subtitle {
+  margin: 0;
+  max-width: 780px;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: #4b5563;
+}
+
+.story-section {
+  margin-top: 42px;
+  padding: 30px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 22px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.07);
+}
+
+.chart-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 22px 22px 10px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+/* Energy and overall CPI section */
+.flourish-wrap {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+}
+
+#review {
+  margin: 24px auto 0;
+  max-width: 900px;
+  font-size: 1.05rem;
+  text-align: left;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+#review a {
+  color: #7f1d1d;
+  font-weight: 700;
+}
+
+/* Shared D3 axis styling */
+.axis path,
+.axis line {
+  stroke: #d1d5db;
+}
+
+.axis text {
+  fill: #4b5563;
+  font-size: 12px;
+}
+
+.axis-label {
+  fill: #374151;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* Housing CPI Chart */
+.housing-section .chart-card {
+  padding-bottom: 18px;
+}
+
+.housing-section .gridlines line {
+  stroke: #e4e4e4;
+  stroke-dasharray: 3, 3;
+}
+
+.housing-section .gridlines path {
+  stroke: none;
+}
+
+.housing-section .period-shade {
+  fill: #f0eaea;
+}
+
+.housing-section .period-label {
+  font-size: 11px;
+  fill: #b07070;
+  font-style: italic;
+}
+
+.housing-section .baseline-line {
+  stroke: #999;
+  stroke-width: 1px;
+  stroke-dasharray: 5, 4;
+}
+
+.housing-section .baseline-label {
+  font-size: 10px;
+  fill: #888;
+}
+
+.housing-section .line-cpi {
+  fill: none;
+  stroke: crimson;
+  stroke-width: 2.5px;
+}
+
+.housing-section .annotation-dot {
+  fill: crimson;
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.housing-section .annotation-label {
+  font-size: 11px;
+  font-weight: 700;
+  fill: #222;
+}
+
+.housing-section .annotation-sub {
+  font-size: 10px;
+  fill: #666;
+}
+
+.housing-section .chart-title {
+  font-size: 14px;
+  font-weight: 700;
+  fill: #222;
+}
+
+.housing-section .overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.housing-section .hover-line {
+  stroke: #aaa;
+  stroke-width: 1px;
+  stroke-dasharray: 4, 3;
+  pointer-events: none;
+}
+
+.housing-section .hover-dot {
+  fill: crimson;
+  stroke: #fff;
+  stroke-width: 2px;
+  pointer-events: none;
+}
+
+.housing-section .story {
+  margin-top: 32px;
+}
+
+.housing-section .story-block {
+  margin-bottom: 26px;
+  padding-left: 14px;
+  border-left: 3px solid crimson;
+}
+
+.housing-section .story-block h3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.housing-section .story-block p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #444;
+  margin: 0 0 6px;
+}
+
+.housing-section .story-block p.source {
+  font-size: 11px;
+  color: #888;
+  margin: 0;
+}
+
+.housing-section .story-block p.source a {
+  color: #b04040;
+  text-decoration: none;
+}
+
+.housing-section .story-block p.source a:hover {
+  text-decoration: underline;
+}
+
+/* Food CPI Chart */
+.food-section svg {
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.food-section .axis path,
+.food-section .axis line {
+  stroke: #333;
+}
+
+.food-section .axis text {
+  font-size: 12px;
+}
+
+.food-section .line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3;
+}
+
+.food-section .analysis-text {
+  font-size: 13px;
+  fill: #333;
+}
+
+/* Transportation CPI Chart */
+.transportation-section .zero-line {
+  stroke: #111;
+  stroke-width: 1.3px;
+}
+
+.transportation-section .bar {
+  cursor: pointer;
+}
+
+.transportation-section .bar-positive {
+  fill: #d95f02;
+}
+
+.transportation-section .bar-negative {
+  fill: #1f78b4;
+}
+
+.transportation-section .bar-highlight {
+  fill: #7f1d1d;
+}
+
+.transportation-section .value-label {
+  fill: #111;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.transportation-section .annotation-line {
+  stroke: #111;
+  stroke-width: 1.2px;
+  stroke-dasharray: 4 4;
+}
+
+.transportation-section .annotation-text {
+  fill: #111;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.transportation-section .annotation-note {
+  fill: #4b5563;
+  font-size: 11px;
+}
+
+.transportation-section .legend-text {
+  fill: #4b5563;
+  font-size: 12px;
+}
+
+.transportation-section .legend-box-positive {
+  fill: #d95f02;
+}
+
+.transportation-section .legend-box-negative {
+  fill: #1f78b4;
+}
+
+.transportation-section .legend-box-highlight {
+  fill: #7f1d1d;
+}
+
+.notes {
+  margin-top: 24px;
+  max-width: 850px;
+}
+
+.notes h3,
+.references h3 {
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+}
+
+.notes p {
+  margin: 0 0 14px;
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+.references {
+  margin-top: 26px;
+  max-width: 900px;
+  padding-top: 18px;
+  border-top: 1px solid #dbd1d1;
+}
+
+.references p {
+  margin: 0 0 12px;
+  line-height: 1.55;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  background: #111;
+  color: #ffffff;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  line-height: 1.45;
+  max-width: 260px;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 760px) {
+  .story-section {
+    padding: 20px;
+  }
+
+  .chart-card {
+    padding: 16px;
+  }
+}
